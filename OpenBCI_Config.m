@@ -1,6 +1,11 @@
 function OpenBCI_Config( BCI_Obj, Command, varargin )
 %Send Configuration Command to OpenBCI Board
-%   There are more to be implemented.
+%   OpenBCI_Config( BCI_Obj, 'START')
+%   OpenBCI_Config( BCI_Obj, 'STOP')
+%   OpenBCI_Config( BCI_Obj, 'SOFT_RESET')
+%   OpenBCI_Config( BCI_Obj, 'CHANNEL_ON', Channel)
+%   OpenBCI_Config( BCI_Obj, 'CHANNEL_OFF', Channel)
+%
 %   J. Cagle, University of Florida, 2017
 
 % Check BCI Object

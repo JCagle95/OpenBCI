@@ -1,6 +1,7 @@
-function [ BCI_Obj ] = OpenBCI_End( BCI_Obj )
+function OpenBCI_End( BCI_Obj )
 %Terminate OpenBCI Object and free up the port
-%   Detailed explanation goes here
+%   OpenBCI_End( BCI_Obj )
+%   J. Cagle, University of Florida, 2017
 
 if BCI_Obj.isStreaming
     BCI_Obj.isStreaming = false;

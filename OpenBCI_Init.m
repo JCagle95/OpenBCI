@@ -1,6 +1,6 @@
 function BCI_Obj = OpenBCI_Init( serial_port )
 %Initialize OpenBCI Object with Serial Commands, modified from OpenBCI_V3.py
-
+%   BCI_Obj = OpenBCI_Init( serial_port )
 %   J. Cagle, University of Florida, 2017
 
 BCI_Obj.isOpenBCI = true;

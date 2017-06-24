@@ -1,30 +1,11 @@
 function varargout = OpenBCI_GUI(varargin)
-% OPENBCI_GUI MATLAB code for OpenBCI_GUI.fig
-%      OPENBCI_GUI, by itself, creates a new OPENBCI_GUI or raises the existing
-%      singleton*.
+% Using OpenBCI with MATLAB using Graphical User Interfaces
+%       OpenBCI_GUI;
 %
-%      H = OPENBCI_GUI returns the handle to a new OPENBCI_GUI or the handle to
-%      the existing singleton*.
+%       More to be implemented.
 %
-%      OPENBCI_GUI('CALLBACK',hObject,eventData,handles,...) calls the local
-%      function named CALLBACK in OPENBCI_GUI.M with the given input arguments.
-%
-%      OPENBCI_GUI('Property','Value',...) creates a new OPENBCI_GUI or raises the
-%      existing singleton*.  Starting from the left, property value pairs are
-%      applied to the GUI before OpenBCI_GUI_OpeningFcn gets called.  An
-%      unrecognized property name or invalid value makes property application
-%      stop.  All inputs are passed to OpenBCI_GUI_OpeningFcn via varargin.
-%
-%      *See GUI Options on GUIDE's Tools menu.  Choose "GUI allows only one
-%      instance to run (singleton)".
-%
-% See also: GUIDE, GUIDATA, GUIHANDLES
+%   J. Cagle, University of Florida, 2017
 
-% Edit the above text to modify the response to help OpenBCI_GUI
-
-% Last Modified by GUIDE v2.5 24-Jun-2017 18:06:05
-
-% Begin initialization code - DO NOT EDIT
 gui_Singleton = 1;
 gui_State = struct('gui_Name',       mfilename, ...
                    'gui_Singleton',  gui_Singleton, ...
@@ -41,7 +22,6 @@ if nargout
 else
     gui_mainfcn(gui_State, varargin{:});
 end
-% End initialization code - DO NOT EDIT
 
 
 % --- Executes just before OpenBCI_GUI is made visible.

@@ -1,6 +1,8 @@
 function [ Samples, BCI_Obj ] = OpenBCI_ReadBinary( BCI_Obj, nSample )
-%OPENBCI_READBINARY Summary of this function goes here
-%   Detailed explanation goes here
+%The Standard protocol of reading OpenBCI Binary
+%   [Sample, BCI_Obj] = OpenBCI_ReadBinary(BCI_Obj, nSample);
+%
+%   J. Cagle, University of Florida, 2017
 
 
 maxSkip = 500;
